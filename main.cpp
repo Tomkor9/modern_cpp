@@ -57,6 +57,7 @@ void printAreas(const Collection& collection)
         {
             cout << (*it)->getArea() << std::endl;
         }
+	std::cout<<"Point Areas ready!\n";
     }
 }
 
